@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+    --border-color: rgb(213, 213, 213);
+}
+body{
+    text-align: center;
+    position: relative;
+    background-color: rgb(239, 242, 248);
+    /* font-family: 'Facebook Letter Faces', sans-serif; */
+}
+h1.fb{
+    color: blue;
+    font-size: 60px;
+    margin-bottom: 7px;
+    font-family: 'Facebook Letter Faces', sans-serif;
+    font-weight: 300;
+}
+form{
+    max-width: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 7px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(57, 57, 57, 0.34);
+
+}
+form h1{
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+form p{
+    margin: 2px;
+    font-size: 14px;
+    color: rgba(112, 112, 112, 0.865);
+}
+form hr{
+    color: var(--border-color);
+}
+.personal-info input, .email-div input, .password-div input{
+    height: 37px;
+    border-radius: 4px;
+    margin: 6px 3px ;
+    width: 96%;
+    border: 1px solid var(--border-color);
+    font-size: 15px;
+    padding-left: 4px;
+    color:var(--border-color) ;
+}
+.personal-info input{
+    width: 46%;
+}
+.birthday p{
+    text-align: left;
+    margin-left: 7px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.birthday select{
+    width: 31%;
+    height: 35px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+.gender-div p{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+.gender{
+    display: flex;
+    align-items: left;
+    gap: 6px;
+    padding-left: 9px;
+}
+.gender div{
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    margin: 6px 0px;
+    border-radius: 4px;
+    width: 25%;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+.submit-div input{
+    background-color: rgb(0, 181, 0);
+    padding: 4px 18px;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 7px;
+    margin: 10px auto;
+    border: 1px solid var(--border-color);
+    width: 40%;
+    height: 37px;
+}
+form p.end{
+    text-align: justify;
+    font-size: 13px;
+    margin: 2px 7px;
+    color: rgba(88, 88, 88, 0.881);
+}
+form p.end span{
+    color: rgb(0, 0, 171);
+}
+form a.new-acc{
+    margin: 20px auto;
+}

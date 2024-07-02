@@ -1,0 +1,13 @@
+*{
+    font-size: 20px;
+    border: 1px solid red;
+}
+#s1{
+    width: 70px ;
+    text-align: center;
+    margin: 6px auto;
+}
+#s3{
+    padding: 5px 10px 20px 30px;
+    margin: 20px;
+}
