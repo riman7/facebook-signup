@@ -2,11 +2,20 @@
     margin: 0;
     /* padding: 0; */
 }
+
 tr, td{
     border: 1px hsl(0, 0%, 33%) solid;
     border-left: 2px black solid; margin: 7px;
     min-width: 70px;
     height: 25px;
+    vertical-align: bottom;     
+}
+td:hover{
+    background-color: rgb(198, 198, 198);
+}
+tr:nth-child(even){
+    background-color: rgb(176, 176, 176);
+    color: rgb(0, 0, 0);
 }
 th{
     border: 2px black solid; margin: 7px;
